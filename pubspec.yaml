@@ -10,7 +10,6 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  cupertino_icons: ^1.0.2
   dio: ^3.0.10
   either_dart: ^0.0.5
   fimber: ^0.4.4
@@ -25,8 +24,8 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  integration_test:
-    sdk: flutter
+  # integration_test:
+  #   sdk: flutter
 
 flutter:
   uses-material-design: true

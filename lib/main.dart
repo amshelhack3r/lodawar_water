@@ -33,7 +33,7 @@ class Lodwar extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: getAppTheme(),
       onGenerateRoute: RouteGenerator.generateRoute,
-      initialRoute: '/SplashScreen',
+      initialRoute: '/LoginPage',
     );
   }
 }

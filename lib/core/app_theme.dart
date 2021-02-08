@@ -1,13 +1,15 @@
 import 'package:flutter/material.dart';
+import 'package:lodwar_water/util/colors.dart';
 
-Color appColor = Colors.blue[300];
-Color accentBlueColor = Colors.blue[300];
+Color appColor = HexColor('#8F92D6');
+Color accentBlueColor = HexColor('#A2A7D3');
 
 getAppTheme() {
   return ThemeData(
     fontFamily: "SFUIText",
     primaryColor: appColor,
     accentColor: accentBlueColor,
+    primaryColorDark: HexColor('#334352'),
     hintColor: appColor,
     textTheme: TextTheme(
       headline1: TextStyle(
